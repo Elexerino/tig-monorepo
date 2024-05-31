@@ -12,7 +12,7 @@
 
 // c003_a007
 
-// c003_a008
+pub mod better_in_twos; // c003_a008
 
 // c003_a009
 
