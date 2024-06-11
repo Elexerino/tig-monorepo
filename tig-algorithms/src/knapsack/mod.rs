@@ -20,7 +20,7 @@
 
 // c003_a011
 
-// c003_a012
+pub mod ironhat_pete; // c003_a012
 
 // c003_a013
 
