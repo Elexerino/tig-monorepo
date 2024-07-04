@@ -52,8 +52,8 @@ pub async fn execute(
                                         // #[cfg(feature = "c001_a005")]
                                         // "c001_a005" => Some(tig_algorithms::satisfiability::c001_a005::solve_challenge as SolveChallengeFn),
                                         
-                                        // #[cfg(feature = "c001_a006")]
-                                        // "c001_a006" => Some(tig_algorithms::satisfiability::c001_a006::solve_challenge as SolveChallengeFn),
+                                        #[cfg(feature = "satisfiability_genetic_sat")]
+                                        "c001_a006" => Some(tig_algorithms::satisfiability::genetic_sat::solve_challenge as SolveChallengeFn),
                                         
                                         // #[cfg(feature = "c001_a007")]
                                         // "c001_a007" => Some(tig_algorithms::satisfiability::c001_a007::solve_challenge as SolveChallengeFn),
