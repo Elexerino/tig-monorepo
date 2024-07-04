@@ -8,7 +8,7 @@
 
 // c003_a005
 
-// c003_a006
+pub mod tabu_search; // c003_a006
 
 // c003_a007
 
