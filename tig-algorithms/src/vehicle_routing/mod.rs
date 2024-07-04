@@ -8,7 +8,7 @@
 
 // c002_a005
 
-// c002_a006
+pub mod ant_colony; // c002_a006
 
 // c002_a007
 
