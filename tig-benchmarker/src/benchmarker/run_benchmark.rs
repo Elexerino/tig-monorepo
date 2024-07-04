@@ -6093,8 +6093,8 @@ pub async fn execute(
                                         // #[cfg(feature = "c003_a010")]
                                         // "c003_a010" => Some(tig_algorithms::knapsack::c003_a010::solve_challenge as SolveChallengeFn),
                                         
-                                        // #[cfg(feature = "c003_a011")]
-                                        // "c003_a011" => Some(tig_algorithms::knapsack::c003_a011::solve_challenge as SolveChallengeFn),
+                                        #[cfg(feature = "knapsack_dual_descent")]
+                                        "c003_a011" => Some(tig_algorithms::knapsack::dual_descent::solve_challenge as SolveChallengeFn),
                                         
                                         // #[cfg(feature = "c003_a012")]
                                         // "c003_a012" => Some(tig_algorithms::knapsack::c003_a012::solve_challenge as SolveChallengeFn),
