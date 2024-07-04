@@ -3083,8 +3083,8 @@ pub async fn execute(
                                         // #[cfg(feature = "c002_a011")]
                                         // "c002_a011" => Some(tig_algorithms::vehicle_routing::c002_a011::solve_challenge as SolveChallengeFn),
                                         
-                                        // #[cfg(feature = "c002_a012")]
-                                        // "c002_a012" => Some(tig_algorithms::vehicle_routing::c002_a012::solve_challenge as SolveChallengeFn),
+                                        #[cfg(feature = "vehicle_routing_guided_clarke_wright")]
+                                        "c002_a012" => Some(tig_algorithms::vehicle_routing::guided_clarke_wright::solve_challenge as SolveChallengeFn),
                                         
                                         // #[cfg(feature = "c002_a013")]
                                         // "c002_a013" => Some(tig_algorithms::vehicle_routing::c002_a013::solve_challenge as SolveChallengeFn),
