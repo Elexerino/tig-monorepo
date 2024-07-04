@@ -10,7 +10,7 @@
 
 // c002_a006
 
-// c002_a007
+pub mod genetic_algorithm; // c002_a007
 
 // c002_a008
 
