@@ -40,8 +40,8 @@ pub async fn execute(
                                         // #[cfg(feature = "c001_a001")]
                                         // "c001_a001" => Some(tig_algorithms::satisfiability::c001_a001::solve_challenge as SolveChallengeFn),
                                         
-                                        // #[cfg(feature = "c001_a002")]
-                                        // "c001_a002" => Some(tig_algorithms::satisfiability::c001_a002::solve_challenge as SolveChallengeFn),
+                                        #[cfg(feature = "satisfiability_dpll_backtracking")]
+                                        "c001_a002" => Some(tig_algorithms::satisfiability::dpll_backtracking::solve_challenge as SolveChallengeFn),
                                         
                                         // #[cfg(feature = "c001_a003")]
                                         // "c001_a003" => Some(tig_algorithms::satisfiability::c001_a003::solve_challenge as SolveChallengeFn),
