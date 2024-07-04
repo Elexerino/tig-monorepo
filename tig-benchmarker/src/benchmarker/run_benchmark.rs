@@ -6069,8 +6069,8 @@ pub async fn execute(
                                         // #[cfg(feature = "c003_a002")]
                                         // "c003_a002" => Some(tig_algorithms::knapsack::c003_a002::solve_challenge as SolveChallengeFn),
                                         
-                                        // #[cfg(feature = "c003_a003")]
-                                        // "c003_a003" => Some(tig_algorithms::knapsack::c003_a003::solve_challenge as SolveChallengeFn),
+                                        #[cfg(feature = "knapsack_branch_and_bound")]
+                                        "c003_a003" => Some(tig_algorithms::knapsack::branch_and_bound::solve_challenge as SolveChallengeFn),
                                         
                                         // #[cfg(feature = "c003_a004")]
                                         // "c003_a004" => Some(tig_algorithms::knapsack::c003_a004::solve_challenge as SolveChallengeFn),
