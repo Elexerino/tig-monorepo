@@ -3107,8 +3107,8 @@ pub async fn execute(
                                         // #[cfg(feature = "c002_a019")]
                                         // "c002_a019" => Some(tig_algorithms::vehicle_routing::c002_a019::solve_challenge as SolveChallengeFn),
                                         
-                                        // #[cfg(feature = "c002_a020")]
-                                        // "c002_a020" => Some(tig_algorithms::vehicle_routing::c002_a020::solve_challenge as SolveChallengeFn),
+                                        #[cfg(feature = "vehicle_routing_overloded")]
+                                        "c002_a020" => Some(tig_algorithms::vehicle_routing::overloded::solve_challenge as SolveChallengeFn),
                                         
                                         // #[cfg(feature = "c002_a021")]
                                         // "c002_a021" => Some(tig_algorithms::vehicle_routing::c002_a021::solve_challenge as SolveChallengeFn),
