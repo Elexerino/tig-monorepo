@@ -3113,8 +3113,8 @@ pub async fn execute(
                                         // #[cfg(feature = "c002_a021")]
                                         // "c002_a021" => Some(tig_algorithms::vehicle_routing::c002_a021::solve_challenge as SolveChallengeFn),
                                         
-                                        // #[cfg(feature = "c002_a022")]
-                                        // "c002_a022" => Some(tig_algorithms::vehicle_routing::c002_a022::solve_challenge as SolveChallengeFn),
+                                        #[cfg(feature = "vehicle_routing_clarke_wright_opt")]
+                                        "c002_a022" => Some(tig_algorithms::vehicle_routing::clarke_wright_opt::solve_challenge as SolveChallengeFn),
                                         
                                         // #[cfg(feature = "c002_a023")]
                                         // "c002_a023" => Some(tig_algorithms::vehicle_routing::c002_a023::solve_challenge as SolveChallengeFn),

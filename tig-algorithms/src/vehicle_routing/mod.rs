@@ -40,7 +40,7 @@
 
 // c002_a021
 
-// c002_a022
+pub mod clarke_wright_opt; // c002_a022
 
 // c002_a023
 
