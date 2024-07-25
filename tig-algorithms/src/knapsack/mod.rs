@@ -42,7 +42,7 @@
 
 // c003_a022
 
-// c003_a023
+pub mod sack_o_potatoes; // c003_a023
 
 // c003_a024
 
