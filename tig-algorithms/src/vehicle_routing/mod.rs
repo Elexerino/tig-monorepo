@@ -52,7 +52,7 @@
 
 // c002_a027
 
-// c002_a028
+pub mod adaptive_cluster; // c002_a028
 
 // c002_a029
 
