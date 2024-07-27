@@ -56,7 +56,7 @@
 
 // c002_a029
 
-// c002_a030
+pub mod compact_gcw; // c002_a030
 
 // c002_a031
 
