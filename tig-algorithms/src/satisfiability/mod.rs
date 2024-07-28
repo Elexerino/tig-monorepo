@@ -36,7 +36,7 @@
 
 // c001_a019
 
-// c001_a020
+pub mod fast_cdcl_sat_solver; // c001_a020
 
 // c001_a021
 

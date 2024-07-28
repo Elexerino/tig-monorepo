@@ -172,7 +172,7 @@ browser = [
 
 # c003_a019 = []
 
-# c001_a020 = []
+satisfiability_fast_cdcl_sat_solver = []
 
 # c002_a020 = []
 
