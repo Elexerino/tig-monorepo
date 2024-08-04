@@ -2110,7 +2110,7 @@ browser = [
 
 # c002_a027 = ["tig-worker/c002_a027"]
 
-# c002_a028 = ["tig-worker/c002_a028"]
+vehicle_routing_adaptive_cluster = ["tig-worker/vehicle_routing_adaptive_cluster"]
 
 # c002_a029 = ["tig-worker/c002_a029"]
 
