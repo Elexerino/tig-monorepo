@@ -2102,7 +2102,7 @@ browser = [
 
 # c002_a023 = ["tig-worker/c002_a023"]
 
-# c002_a024 = ["tig-worker/c002_a024"]
+vehicle_routing_cw_two_opt_ls = ["tig-worker/vehicle_routing_cw_two_opt_ls"]
 
 # c002_a025 = ["tig-worker/c002_a025"]
 
