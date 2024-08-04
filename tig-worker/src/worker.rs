@@ -6080,8 +6080,8 @@ pub fn compute_solution(
                 // #[cfg(feature = "c003_a007")]
                 // "c003_a007" => Some(tig_algorithms::knapsack::c003_a007::solve_challenge as SolveChallengeFn),
 
-                // #[cfg(feature = "c003_a008")]
-                // "c003_a008" => Some(tig_algorithms::knapsack::c003_a008::solve_challenge as SolveChallengeFn),
+                #[cfg(feature = "knapsack_better_in_twos")]
+                "c003_a008" => Some(tig_algorithms::knapsack::better_in_twos::solve_challenge as SolveChallengeFn),
 
                 // #[cfg(feature = "c003_a009")]
                 // "c003_a009" => Some(tig_algorithms::knapsack::c003_a009::solve_challenge as SolveChallengeFn),
