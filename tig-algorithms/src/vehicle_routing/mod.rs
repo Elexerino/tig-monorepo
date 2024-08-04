@@ -12,7 +12,7 @@
 
 // c002_a007
 
-// c002_a008
+pub mod simulated_annealing; // c002_a008
 
 // c002_a009
 
