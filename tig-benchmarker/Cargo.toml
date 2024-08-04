@@ -4080,7 +4080,7 @@ browser = [
 
 # c003_a013 = ["tig-worker/c003_a013"]
 
-# c003_a014 = ["tig-worker/c003_a014"]
+knapsack_filter_knapmaxxing = ["tig-worker/knapsack_filter_knapmaxxing"]
 
 # c003_a015 = ["tig-worker/c003_a015"]
 
