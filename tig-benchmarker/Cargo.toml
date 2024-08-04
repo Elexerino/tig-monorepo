@@ -2108,7 +2108,7 @@ browser = [
 
 # c002_a026 = ["tig-worker/c002_a026"]
 
-# c002_a027 = ["tig-worker/c002_a027"]
+vehicle_routing_optimized_clarke = ["tig-worker/vehicle_routing_optimized_clarke"]
 
 # c002_a028 = ["tig-worker/c002_a028"]
 
