@@ -2076,7 +2076,7 @@ browser = [
 
 # c002_a010 = ["tig-worker/c002_a010"]
 
-# c002_a011 = ["tig-worker/c002_a011"]
+vehicle_routing_lazier_cw = ["tig-worker/vehicle_routing_lazier_cw"]
 
 # c002_a012 = ["tig-worker/c002_a012"]
 
