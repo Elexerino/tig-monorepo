@@ -57,8 +57,8 @@ pub fn compute_solution(
                 // #[cfg(feature = "c001_a012")]
                 // "c001_a012" => Some(tig_algorithms::satisfiability::c001_a012::solve_challenge as SolveChallengeFn),
 
-                // #[cfg(feature = "c001_a013")]
-                // "c001_a013" => Some(tig_algorithms::satisfiability::c001_a013::solve_challenge as SolveChallengeFn),
+                #[cfg(feature = "satisfiability_faster_walk_sat")]
+                "c001_a013" => Some(tig_algorithms::satisfiability::faster_walk_sat::solve_challenge as SolveChallengeFn),
 
                 // #[cfg(feature = "c001_a014")]
                 // "c001_a014" => Some(tig_algorithms::satisfiability::c001_a014::solve_challenge as SolveChallengeFn),
