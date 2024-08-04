@@ -69,8 +69,8 @@ pub fn compute_solution(
                 // #[cfg(feature = "c001_a016")]
                 // "c001_a016" => Some(tig_algorithms::satisfiability::c001_a016::solve_challenge as SolveChallengeFn),
 
-                // #[cfg(feature = "c001_a017")]
-                // "c001_a017" => Some(tig_algorithms::satisfiability::c001_a017::solve_challenge as SolveChallengeFn),
+                #[cfg(feature = "satisfiability_sprintier_sat")]
+                "c001_a017" => Some(tig_algorithms::satisfiability::sprintier_sat::solve_challenge as SolveChallengeFn),
 
                 // #[cfg(feature = "c001_a018")]
                 // "c001_a018" => Some(tig_algorithms::satisfiability::c001_a018::solve_challenge as SolveChallengeFn),
