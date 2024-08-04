@@ -74,7 +74,7 @@ browser = [
 
 # c001_a008 = ["tig-worker/c001_a008"]
 
-# c001_a009 = ["tig-worker/c001_a009"]
+satisfiability_need_for_speed = ["tig-worker/satisfiability_need_for_speed"]
 
 # c001_a010 = ["tig-worker/c001_a010"]
 

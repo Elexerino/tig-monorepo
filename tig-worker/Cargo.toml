@@ -39,7 +39,7 @@ wasmi = { git = "https://github.com/tig-foundation/wasmi.git", branch = "runtime
 
 # c001_a008 = []
 
-# c001_a009 = []
+satisfiability_need_for_speed = []
 
 # c001_a010 = []
 
