@@ -96,7 +96,7 @@ browser = [
 
 # c001_a019 = ["tig-worker/c001_a019"]
 
-# c001_a020 = ["tig-worker/c001_a020"]
+satisfiability_fast_cdcl_sat_solver = ["tig-worker/satisfiability_fast_cdcl_sat_solver"]
 
 # c001_a021 = ["tig-worker/c001_a021"]
 
