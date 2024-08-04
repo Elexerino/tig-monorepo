@@ -34,7 +34,7 @@
 
 // c001_a018
 
-// c001_a019
+pub mod double_optimized; // c001_a019
 
 // c001_a020
 

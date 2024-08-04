@@ -94,7 +94,7 @@ browser = [
 
 # c001_a018 = ["tig-worker/c001_a018"]
 
-# c001_a019 = ["tig-worker/c001_a019"]
+satisfiability_double_optimized = ["tig-worker/satisfiability_double_optimized"]
 
 # c001_a020 = ["tig-worker/c001_a020"]
 
