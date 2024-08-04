@@ -4094,7 +4094,7 @@ browser = [
 
 # c003_a020 = ["tig-worker/c003_a020"]
 
-# c003_a021 = ["tig-worker/c003_a021"]
+knapsack_over_knapmaxxed = ["tig-worker/knapsack_over_knapmaxxed"]
 
 # c003_a022 = ["tig-worker/c003_a022"]
 
