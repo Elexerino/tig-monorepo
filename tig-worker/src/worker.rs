@@ -3077,8 +3077,8 @@ pub fn compute_solution(
                 // #[cfg(feature = "c002_a012")]
                 // "c002_a012" => Some(tig_algorithms::vehicle_routing::c002_a012::solve_challenge as SolveChallengeFn),
 
-                // #[cfg(feature = "c002_a013")]
-                // "c002_a013" => Some(tig_algorithms::vehicle_routing::c002_a013::solve_challenge as SolveChallengeFn),
+                #[cfg(feature = "vehicle_routing_aco_sbas")]
+                "c002_a013" => Some(tig_algorithms::vehicle_routing::aco_sbas::solve_challenge as SolveChallengeFn),
 
                 // #[cfg(feature = "c002_a014")]
                 // "c002_a014" => Some(tig_algorithms::vehicle_routing::c002_a014::solve_challenge as SolveChallengeFn),

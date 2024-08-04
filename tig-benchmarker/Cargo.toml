@@ -2080,7 +2080,7 @@ browser = [
 
 # c002_a012 = ["tig-worker/c002_a012"]
 
-# c002_a013 = ["tig-worker/c002_a013"]
+vehicle_routing_aco_sbas = ["tig-worker/vehicle_routing_aco_sbas"]
 
 # c002_a014 = ["tig-worker/c002_a014"]
 
