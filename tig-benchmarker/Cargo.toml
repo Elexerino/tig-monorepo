@@ -76,7 +76,7 @@ browser = [
 
 # c001_a009 = ["tig-worker/c001_a009"]
 
-# c001_a010 = ["tig-worker/c001_a010"]
+satisfiability_walk_sat_adapt_tabu = ["tig-worker/satisfiability_walk_sat_adapt_tabu"]
 
 # c001_a011 = ["tig-worker/c001_a011"]
 
