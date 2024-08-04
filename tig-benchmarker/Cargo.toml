@@ -2066,7 +2066,7 @@ browser = [
 
 # c002_a005 = ["tig-worker/c002_a005"]
 
-# c002_a006 = ["tig-worker/c002_a006"]
+vehicle_routing_ant_colony = ["tig-worker/vehicle_routing_ant_colony"]
 
 # c002_a007 = ["tig-worker/c002_a007"]
 

@@ -3056,8 +3056,8 @@ pub fn compute_solution(
                 // #[cfg(feature = "c002_a005")]
                 // "c002_a005" => Some(tig_algorithms::vehicle_routing::c002_a005::solve_challenge as SolveChallengeFn),
 
-                // #[cfg(feature = "c002_a006")]
-                // "c002_a006" => Some(tig_algorithms::vehicle_routing::c002_a006::solve_challenge as SolveChallengeFn),
+                #[cfg(feature = "vehicle_routing_ant_colony")]
+                "c002_a006" => Some(tig_algorithms::vehicle_routing::ant_colony::solve_challenge as SolveChallengeFn),
 
                 // #[cfg(feature = "c002_a007")]
                 // "c002_a007" => Some(tig_algorithms::vehicle_routing::c002_a007::solve_challenge as SolveChallengeFn),
