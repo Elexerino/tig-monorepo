@@ -6143,8 +6143,8 @@ pub fn compute_solution(
                 // #[cfg(feature = "c003_a028")]
                 // "c003_a028" => Some(tig_algorithms::knapsack::c003_a028::solve_challenge as SolveChallengeFn),
 
-                // #[cfg(feature = "c003_a029")]
-                // "c003_a029" => Some(tig_algorithms::knapsack::c003_a029::solve_challenge as SolveChallengeFn),
+                #[cfg(feature = "knapsack_sackophone")]
+                "c003_a029" => Some(tig_algorithms::knapsack::sackophone::solve_challenge as SolveChallengeFn),
 
                 // #[cfg(feature = "c003_a030")]
                 // "c003_a030" => Some(tig_algorithms::knapsack::c003_a030::solve_challenge as SolveChallengeFn),
