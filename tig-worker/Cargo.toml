@@ -2063,7 +2063,7 @@ wasmi = { git = "https://github.com/tig-foundation/wasmi.git", branch = "runtime
 
 # c002_a021 = []
 
-# c002_a022 = []
+vehicle_routing_clarke_wright_opt = []
 
 # c002_a023 = []
 
