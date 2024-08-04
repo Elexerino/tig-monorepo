@@ -104,7 +104,7 @@ browser = [
 
 # c001_a023 = ["tig-worker/c001_a023"]
 
-# c001_a024 = ["tig-worker/c001_a024"]
+satisfiability_mt_sat = ["tig-worker/satisfiability_mt_sat"]
 
 # c001_a025 = ["tig-worker/c001_a025"]
 
