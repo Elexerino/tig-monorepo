@@ -25,7 +25,7 @@ wasmi = { git = "https://github.com/tig-foundation/wasmi.git", branch = "runtime
 
 # c001_a001 = []
 
-# c001_a002 = []
+satisfiability_dpll_backtracking = []
 
 # c001_a003 = []
 

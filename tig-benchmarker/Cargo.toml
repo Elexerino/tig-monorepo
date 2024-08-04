@@ -60,7 +60,7 @@ browser = [
 
 # c001_a001 = ["tig-worker/c001_a001"]
 
-# c001_a002 = ["tig-worker/c001_a002"]
+satisfiability_dpll_backtracking = ["tig-worker/satisfiability_dpll_backtracking"]
 
 # c001_a003 = ["tig-worker/c001_a003"]
 
