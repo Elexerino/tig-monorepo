@@ -4051,7 +4051,7 @@ wasmi = { git = "https://github.com/tig-foundation/wasmi.git", branch = "runtime
 
 # c003_a016 = []
 
-# c003_a017 = []
+knapsack_optimised_knapmax = []
 
 # c003_a018 = []
 

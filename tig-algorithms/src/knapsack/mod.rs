@@ -30,7 +30,7 @@
 
 // c003_a016
 
-// c003_a017
+pub mod optimised_knapmax; // c003_a017
 
 // c003_a018
 
