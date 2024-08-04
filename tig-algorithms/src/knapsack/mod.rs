@@ -46,7 +46,7 @@
 
 // c003_a024
 
-// c003_a025
+pub mod lightning_knapsack; // c003_a025
 
 // c003_a026
 

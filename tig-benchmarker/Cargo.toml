@@ -4102,7 +4102,7 @@ browser = [
 
 # c003_a024 = ["tig-worker/c003_a024"]
 
-# c003_a025 = ["tig-worker/c003_a025"]
+knapsack_lightning_knapsack = ["tig-worker/knapsack_lightning_knapsack"]
 
 # c003_a026 = ["tig-worker/c003_a026"]
 
