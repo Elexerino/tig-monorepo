@@ -42,8 +42,8 @@ pub fn compute_solution(
                 // #[cfg(feature = "c001_a007")]
                 // "c001_a007" => Some(tig_algorithms::satisfiability::c001_a007::solve_challenge as SolveChallengeFn),
 
-                // #[cfg(feature = "c001_a008")]
-                // "c001_a008" => Some(tig_algorithms::satisfiability::c001_a008::solve_challenge as SolveChallengeFn),
+                #[cfg(feature = "satisfiability_i_cant_get_no")]
+                "c001_a008" => Some(tig_algorithms::satisfiability::i_cant_get_no::solve_challenge as SolveChallengeFn),
 
                 // #[cfg(feature = "c001_a009")]
                 // "c001_a009" => Some(tig_algorithms::satisfiability::c001_a009::solve_challenge as SolveChallengeFn),
