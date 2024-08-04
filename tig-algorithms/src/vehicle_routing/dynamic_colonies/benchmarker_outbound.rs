@@ -1,8 +1,8 @@
 /*!
 Copyright 2024 Justin Kirk
 
-Licensed under the TIG Benchmarker Outbound Game License v1.0 (the "License"); you 
-may not use this file except in compliance with the License. You may obtain a copy 
+Licensed under the TIG Benchmarker Outbound Game License v1.0 (the "License"); you
+may not use this file except in compliance with the License. You may obtain a copy
 of the License at
 
 https://github.com/tig-foundation/tig-monorepo/tree/main/docs/licenses
@@ -13,25 +13,30 @@ CONDITIONS OF ANY KIND, either express or implied. See the License for the speci
 language governing permissions and limitations under the License.
 */
 
-use std::collections::HashSet;
-use tig_challenges::vehicle_routing::{Challenge, Solution};
-use rand::seq::SliceRandom;
-use rand::SeedableRng;
 use rand::rngs::StdRng;
+use rand::seq::SliceRandom;
 use rand::Rng;
+use rand::SeedableRng;
+use std::collections::HashSet;
 use std::f64;
 use std::hash::{Hash, Hasher};
+use tig_challenges::vehicle_routing::{Challenge, Solution};
 
 // Wrapper type for Solution
 struct SolutionWrapper(Solution);
 
 impl SolutionWrapper {
     fn new(routes: Vec<usize>) -> Self {
-        SolutionWrapper(Solution { routes: vec![routes] })
+        SolutionWrapper(Solution {
+            routes: vec![routes],
+        })
     }
 
     fn total_distance(&self, challenge: &Challenge) -> f64 {
-        self.0.routes[0].windows(2).map(|w| challenge.distance_matrix[w[0]][w[1]] as f64).sum()
+        self.0.routes[0]
+            .windows(2)
+            .map(|w| challenge.distance_matrix[w[0]][w[1]] as f64)
+            .sum()
     }
 }
 
@@ -57,7 +62,7 @@ impl Hash for SolutionWrapper {
     }
 }
 
-pub fn solve_challenge(challenge: &Challenge) -> Result<Option<Solution>, String> {
+pub fn solve_challenge(challenge: &Challenge) -> anyhow::Result<Option<Solution>> {
     let mut rng = StdRng::seed_from_u64(challenge.seed as u64);
     let mut best_solution: Option<SolutionWrapper> = None;
     let mut best_distance = f64::INFINITY;
@@ -106,7 +111,8 @@ fn generate_greedy_solution(challenge: &Challenge) -> SolutionWrapper {
         let mut closest_node = None;
 
         for &node in &remaining_nodes {
-            let distance = challenge.distance_matrix[*solution.0.routes[0].last().unwrap()][node] as f64;
+            let distance =
+                challenge.distance_matrix[*solution.0.routes[0].last().unwrap()][node] as f64;
             if distance < min_distance {
                 min_distance = distance;
                 closest_node = Some(node);
@@ -130,7 +136,11 @@ fn generate_random_solution(rng: &mut StdRng, challenge: &Challenge) -> Solution
     SolutionWrapper::new(nodes)
 }
 
-fn local_search(rng: &mut StdRng, mut solution: SolutionWrapper, challenge: &Challenge) -> SolutionWrapper {
+fn local_search(
+    rng: &mut StdRng,
+    mut solution: SolutionWrapper,
+    challenge: &Challenge,
+) -> SolutionWrapper {
     let mut best_solution = solution.clone();
     let mut best_distance = best_solution.total_distance(challenge);
 
