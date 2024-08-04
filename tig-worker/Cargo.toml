@@ -4049,7 +4049,7 @@ wasmi = { git = "https://github.com/tig-foundation/wasmi.git", branch = "runtime
 
 # c003_a015 = []
 
-# c003_a016 = []
+knapsack_better_knapm = []
 
 # c003_a017 = []
 
