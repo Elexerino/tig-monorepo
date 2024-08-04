@@ -4072,7 +4072,7 @@ browser = [
 
 # c003_a009 = ["tig-worker/c003_a009"]
 
-# c003_a010 = ["tig-worker/c003_a010"]
+knapsack_knapsplorify = ["tig-worker/knapsack_knapsplorify"]
 
 # c003_a011 = ["tig-worker/c003_a011"]
 

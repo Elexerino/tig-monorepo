@@ -16,7 +16,7 @@
 
 // c003_a009
 
-// c003_a010
+pub mod knapsplorify; // c003_a010
 
 // c003_a011
 
