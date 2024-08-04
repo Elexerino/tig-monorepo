@@ -2082,7 +2082,7 @@ browser = [
 
 # c002_a013 = ["tig-worker/c002_a013"]
 
-# c002_a014 = ["tig-worker/c002_a014"]
+vehicle_routing_fast_exit_clarke = ["tig-worker/vehicle_routing_fast_exit_clarke"]
 
 # c002_a015 = ["tig-worker/c002_a015"]
 
