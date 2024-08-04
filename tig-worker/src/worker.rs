@@ -84,8 +84,8 @@ pub fn compute_solution(
                 // #[cfg(feature = "c001_a021")]
                 // "c001_a021" => Some(tig_algorithms::satisfiability::c001_a021::solve_challenge as SolveChallengeFn),
 
-                // #[cfg(feature = "c001_a022")]
-                // "c001_a022" => Some(tig_algorithms::satisfiability::c001_a022::solve_challenge as SolveChallengeFn),
+                #[cfg(feature = "satisfiability_optimized_sprint_sat")]
+                "c001_a022" => Some(tig_algorithms::satisfiability::optimized_sprint_sat::solve_challenge as SolveChallengeFn),
 
                 // #[cfg(feature = "c001_a023")]
                 // "c001_a023" => Some(tig_algorithms::satisfiability::c001_a023::solve_challenge as SolveChallengeFn),
