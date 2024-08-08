@@ -68,7 +68,7 @@
 
 // c002_a035
 
-// c002_a036
+pub mod clarke_wright_super; // c002_a036
 
 // c002_a037
 
