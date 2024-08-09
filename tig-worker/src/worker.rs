@@ -9080,8 +9080,8 @@ pub fn compute_solution(
                 // #[cfg(feature = "c004_a001")]
                 // "c004_a001" => Some(tig_algorithms::vector_search::c004_a001::solve_challenge as SolveChallengeFn),
 
-                // #[cfg(feature = "c004_a002")]
-                // "c004_a002" => Some(tig_algorithms::vector_search::c004_a002::solve_challenge as SolveChallengeFn),
+                #[cfg(feature = "vector_search_kd_tree")]
+                "c004_a002" => Some(tig_algorithms::vector_search::kd_tree::solve_challenge as SolveChallengeFn),
 
                 // #[cfg(feature = "c004_a003")]
                 // "c004_a003" => Some(tig_algorithms::vector_search::c004_a003::solve_challenge as SolveChallengeFn),

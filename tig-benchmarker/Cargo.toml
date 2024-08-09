@@ -6054,7 +6054,7 @@ browser = [
 
 # c004_a001 = ["tig-worker/c004_a001"]
 
-# c004_a002 = ["tig-worker/c004_a002"]
+vector_search_kd_tree = ["tig-worker/vector_search_kd_tree"]
 
 # c004_a003 = ["tig-worker/c004_a003"]
 

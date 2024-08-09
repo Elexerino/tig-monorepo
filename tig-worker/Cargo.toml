@@ -6019,7 +6019,7 @@ wasmi = { git = "https://github.com/tig-foundation/wasmi.git", branch = "runtime
 
 # c004_a001 = []
 
-# c004_a002 = []
+vector_search_kd_tree = []
 
 # c004_a003 = []
 
