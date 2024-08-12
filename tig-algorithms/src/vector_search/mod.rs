@@ -26,7 +26,7 @@
 
 // c004_a014
 
-// c004_a015
+pub mod hyper_index; // c004_a015
 
 // c004_a016
 

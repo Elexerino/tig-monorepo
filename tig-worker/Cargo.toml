@@ -6045,7 +6045,7 @@ wasmi = { git = "https://github.com/tig-foundation/wasmi.git", branch = "runtime
 
 # c004_a014 = []
 
-# c004_a015 = []
+vector_search_hyper_index = []
 
 # c004_a016 = []
 
