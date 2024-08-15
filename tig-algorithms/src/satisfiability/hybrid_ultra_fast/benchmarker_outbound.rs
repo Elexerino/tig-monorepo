@@ -70,7 +70,7 @@ impl Solver {
             watchers,
             trail: Vec::with_capacity(num_vars),
             propagation_queue: Vec::with_capacity(num_vars),
-            rng: StdRng::seed_from_u64(challenge.seed as u64),
+            rng: StdRng::seed_from_u64(challenge.seeds[0] as u64),
             restarts: 0,
             conflicts: 0,
         }
