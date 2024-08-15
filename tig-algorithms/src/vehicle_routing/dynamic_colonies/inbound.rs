@@ -63,7 +63,7 @@ impl Hash for SolutionWrapper {
 }
 
 pub fn solve_challenge(challenge: &Challenge) -> anyhow::Result<Option<Solution>> {
-    let mut rng = StdRng::seed_from_u64(challenge.seed as u64);
+    let mut rng = StdRng::seed_from_u64(challenge.seeds[0] as u64);
     let mut best_solution: Option<SolutionWrapper> = None;
     let mut best_distance = f64::INFINITY;
 
