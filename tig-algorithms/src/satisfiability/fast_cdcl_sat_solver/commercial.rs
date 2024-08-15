@@ -57,7 +57,7 @@ impl Solver {
             vsids_scores: vec![0.0; num_vars],
             watchers,
             trail: VecDeque::new(),
-            rng: StdRng::seed_from_u64(challenge.seed as u64),
+            rng: StdRng::seed_from_u64(challenge.seeds[0] as u64),
         }
     }
 
