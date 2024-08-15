@@ -36,7 +36,7 @@ pub fn solve_challenge(challenge: &Challenge) -> Result<Option<Solution>> {
     let max_distance = challenge.max_distance;
     let max_distance_square = max_distance * max_distance;
 
-    let mut rng = StdRng::seed_from_u64(challenge.seed as u64);
+    let mut rng = StdRng::seed_from_u64(challenge.seeds[0] as u64);
     let dimension = vector_database[0].len();
     let mut index = MultiIndex::new(dimension, INDICES, PLANES, &mut rng);
     for (db_index, database_vector) in vector_database.iter().enumerate() {
