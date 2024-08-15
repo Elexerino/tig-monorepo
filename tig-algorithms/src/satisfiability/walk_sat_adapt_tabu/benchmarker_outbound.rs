@@ -22,7 +22,7 @@ use std::collections::{HashSet, VecDeque};
 use tig_challenges::satisfiability::*;
 
 pub fn solve_challenge(challenge: &Challenge) -> Result<Option<Solution>> {
-    let mut rng = StdRng::seed_from_u64(challenge.seed as u64);
+    let mut rng = StdRng::seed_from_u64(challenge.seeds[0] as u64);
     let num_variables = challenge.difficulty.num_variables;
     let max_flips = 1000;
     let initial_noise: f64 = 0.3;
