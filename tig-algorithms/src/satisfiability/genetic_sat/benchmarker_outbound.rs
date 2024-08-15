@@ -41,7 +41,7 @@ pub fn solve_challenge(challenge: &Challenge) -> anyhow::Result<Option<Solution>
     let population_size = 50;
     let generations = 100;
     let mutation_rate = 0.01;
-    let mut rng = StdRng::seed_from_u64(challenge.seed as u64);
+    let mut rng = StdRng::seed_from_u64(challenge.seeds[0] as u64);
 
     let mut population: Vec<Individual> = (0..population_size).map(|_| {
         let variables: Vec<bool> = (0..num_variables).map(|_| rng.gen::<bool>()).collect();
