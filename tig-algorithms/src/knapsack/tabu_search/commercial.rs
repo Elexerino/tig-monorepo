@@ -57,7 +57,7 @@ pub fn solve_challenge(challenge: &Challenge) -> anyhow::Result<Option<Solution>
 
     let tabu_tenure = 10;
     let max_iterations = 100;
-    let mut rng = StdRng::seed_from_u64(challenge.seed as u64);
+    let mut rng = StdRng::seed_from_u64(challenge.seeds[0] as u64);
 
     let initial_items: Vec<bool> = (0..num_items).map(|_| rng.gen_bool(0.5)).collect();
     let mut current_solution = Individual::new(initial_items.clone(), 0);
