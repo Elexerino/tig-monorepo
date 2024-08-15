@@ -95,7 +95,7 @@ pub fn solve_challenge(challenge: &Challenge) -> Result<Option<Solution>> {
         }
 
         for ant_index in 0..num_ants {
-            let ant_seed = challenge.seed as u32 + ant_index as u32;
+            let ant_seed = challenge.seeds[0] as u32 + ant_index as u32;
             let solution = solution_of_one_ant(
                 num_nodes,
                 vehicle_capacity,
