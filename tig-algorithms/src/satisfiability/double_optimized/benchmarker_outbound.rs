@@ -36,7 +36,7 @@ impl WalkSAT {
     fn new(challenge: &Challenge) -> Self {
         let num_vars = challenge.difficulty.num_variables;
         let clauses = challenge.clauses.clone();
-        let mut rng = StdRng::seed_from_u64(challenge.seed as u64);
+        let mut rng = StdRng::seed_from_u64(challenge.seeds[0] as u64);
         
         let assignment = (0..num_vars).map(|_| rng.gen_bool(0.5)).collect();
         let clause_states = vec![0; clauses.len()];
